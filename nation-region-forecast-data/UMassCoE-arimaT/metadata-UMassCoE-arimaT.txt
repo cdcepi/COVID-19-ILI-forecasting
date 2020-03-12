@@ -5,8 +5,9 @@ model_abbr: arimaT
 model_contributors: Evan L. Ray <eray@mtholyoke.edu>, Nicholas G. Reich
 data_source1: ilinet
 data_source2: NULL
+interventions: this model does not factor in any current or future interventions.
 this_model_is_an_ensemble: FALSE
-methods: >- An ARIMA model is fit using the auto.arima function in the forecast
+methods: An ARIMA model is fit using the auto.arima function in the forecast
   package for R.  The data are log-transformed and any infinite or missing
   values after the transformation are linearly imputed before fitting the
   model.  A separate model is fit for each region.  Through iterating the
