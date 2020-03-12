@@ -1,0 +1,18 @@
+team_name: UMass-Amherst Influenza Forecasting Center of Excellence
+team_abbr: UMassCoE
+model_name: Auto-regressive Integrated Moving Average with Transformations
+model_abbr: arimaT
+model_contributors: Evan L. Ray <eray@mtholyoke.edu>, Nicholas G. Reich
+data_source1: ilinet
+data_source2: NULL
+this_model_is_an_ensemble: FALSE
+methods: >- An ARIMA model is fit using the auto.arima function in the forecast
+  package for R.  The data are log-transformed and any infinite or missing
+  values after the transformation are linearly imputed before fitting the
+  model.  A separate model is fit for each region.  Through iterating the
+  one-step-ahead predictions, this model fit yields a joint predictive
+  distribution for incidence in all remaining weeks of the season.  Appropriate
+  integrals of this joint distribution are calculated via Monte Carlo
+  integration to obtain predictions for the seasonal quantities.  For making
+  prospective predictions for each season, only data before the start of that
+  season were used in fitting model parameters.
