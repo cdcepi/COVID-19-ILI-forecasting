@@ -1,5 +1,6 @@
 ## script to generate COVID-19 ILI forecasting template
-## Nicholas Reich
+## Nicholas Reich 
+## Edited by Nutcha Wattanachit
 ## March 2020
 
 library(dplyr)
@@ -35,9 +36,9 @@ natreg_template <- bind_rows(
     date_bins_template, 
     date_points_template, 
     binary_bins_template
-    ) %>%
+) %>%
     mutate(location = factor(location, levels=locations),
-        type = factor(type, levels=c("point", "bin"))) %>%
+           type = factor(type, levels=c("point", "bin"))) %>%
     arrange(location, target, type, bin)
 
 ## sanity checking
@@ -49,29 +50,30 @@ write_csv(natreg_template, path="templates-and-data/covid19-ili-forecast-nationa
 ### State template
 ## note, this excludes Florida and includes Virgin Islands, Puerto Rico, and District of Columbia
 states <- read_csv("https://raw.githubusercontent.com/cdcepi/State_FluSight_Forecasts/master/2017-2018_StateILI_Submission_Template.csv") %>%
-    .$Location %>% unique()
-
+    .$Location %>% unique() %>% append("New York City", after=32)
 ## make ILI targets template
 ili_bin_template <- expand.grid(location=states, target=ili_targets, type="bin", bin=ili_bins, value = as.character(1/length(ili_bins)), stringsAsFactors = FALSE)
 ili_points_template <- expand.grid(location=states, target=ili_targets, type="point", value="1.234", stringsAsFactors = FALSE)
 
 ## make date targets template
-date_bins_template <- expand.grid(location=states, target=date_targets, type="bin", bin=date_bins, value = as.character(1/length(date_bins)), stringsAsFactors = FALSE)
-date_points_template <- expand.grid(location=states, target=date_targets, type="point", value = "2020-03-02", stringsAsFactors = FALSE)
+# date_bins_template <- expand.grid(location=states, target=date_targets, type="bin", bin=date_bins, value = as.character(1/length(date_bins)), stringsAsFactors = FALSE)
+# date_points_template <- expand.grid(location=states, target=date_targets, type="point", value = "2020-03-02", stringsAsFactors = FALSE)
+date_bins_template <- expand.grid(location=states, target=date_targets[1], type="bin", bin=date_bins, value = as.character(1/length(date_bins)), stringsAsFactors = FALSE)
+date_points_template <- expand.grid(location=states, target=date_targets[1], type="point", value = "2020-03-02", stringsAsFactors = FALSE)
 
 ## make binart target template
-binary_bins_template <- expand.grid(location=states, target=binary_targets, type="bin", bin="true", value = ".5", stringsAsFactors = FALSE)
+# binary_bins_template <- expand.grid(location=states, target=binary_targets, type="bin", bin="true", value = ".5", stringsAsFactors = FALSE)
 
 ## bind all together
 state_template <- bind_rows(
     ili_bin_template, 
     ili_points_template, 
     date_bins_template, 
-    date_points_template, 
-    binary_bins_template
+    date_points_template
+    # binary_bins_template
 ) %>%
     mutate(location = factor(location, levels=states),
-        type = factor(type, levels=c("point", "bin"))) %>%
+           type = factor(type, levels=c("point", "bin"))) %>%
     arrange(location, target, type, bin)
 
 ## sanity checking
