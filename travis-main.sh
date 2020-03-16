@@ -27,9 +27,6 @@ git config user.name "CI auto deploy"
 git config user.email "katiehouse3@gmail.com"
 
 
-# Deleting the private key so that we don't accidentally push it back
-rm deploy_key
-
 echo "Testing forecasts..."
 source ./travis/test.sh
 echo "Test Complete"
