@@ -39,6 +39,7 @@ ssh-add deploy_key
 # Deleting the private key so that we don't accidentally push it back
 rm deploy_key
 
+echo "Testing forecasts..."
 source ./travis/test.sh
-
+echo "Test Complete"
 ssh-agent -k
