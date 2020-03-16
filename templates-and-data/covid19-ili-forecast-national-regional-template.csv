@@ -1512,7 +1512,7 @@ US National,6 wk ahead,bin,9.7,0.00398406374501992
 US National,6 wk ahead,bin,9.8,0.00398406374501992
 US National,6 wk ahead,bin,9.9,0.00398406374501992
 US National,Below baseline for 3 weeks,bin,true,.5
-US National,First week below baseline,point,NA,2020-03-02
+US National,First week below baseline,point,NA,2020-EW15
 US National,First week below baseline,bin,2020-EW10,0.0384615384615385
 US National,First week below baseline,bin,2020-EW11,0.0384615384615385
 US National,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -1791,7 +1791,7 @@ US National,Peak height,bin,9.6,0.00398406374501992
 US National,Peak height,bin,9.7,0.00398406374501992
 US National,Peak height,bin,9.8,0.00398406374501992
 US National,Peak height,bin,9.9,0.00398406374501992
-US National,Peak week,point,NA,2020-03-02
+US National,Peak week,point,NA,2020-EW15
 US National,Peak week,bin,2020-EW10,0.0384615384615385
 US National,Peak week,bin,2020-EW11,0.0384615384615385
 US National,Peak week,bin,2020-EW12,0.0384615384615385
@@ -3331,7 +3331,7 @@ HHS Region 1,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 1,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 1,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 1,Below baseline for 3 weeks,bin,true,.5
-HHS Region 1,First week below baseline,point,NA,2020-03-02
+HHS Region 1,First week below baseline,point,NA,2020-EW15
 HHS Region 1,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 1,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 1,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -3610,7 +3610,7 @@ HHS Region 1,Peak height,bin,9.6,0.00398406374501992
 HHS Region 1,Peak height,bin,9.7,0.00398406374501992
 HHS Region 1,Peak height,bin,9.8,0.00398406374501992
 HHS Region 1,Peak height,bin,9.9,0.00398406374501992
-HHS Region 1,Peak week,point,NA,2020-03-02
+HHS Region 1,Peak week,point,NA,2020-EW15
 HHS Region 1,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 1,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 1,Peak week,bin,2020-EW12,0.0384615384615385
@@ -5150,7 +5150,7 @@ HHS Region 2,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 2,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 2,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 2,Below baseline for 3 weeks,bin,true,.5
-HHS Region 2,First week below baseline,point,NA,2020-03-02
+HHS Region 2,First week below baseline,point,NA,2020-EW15
 HHS Region 2,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 2,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 2,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -5429,7 +5429,7 @@ HHS Region 2,Peak height,bin,9.6,0.00398406374501992
 HHS Region 2,Peak height,bin,9.7,0.00398406374501992
 HHS Region 2,Peak height,bin,9.8,0.00398406374501992
 HHS Region 2,Peak height,bin,9.9,0.00398406374501992
-HHS Region 2,Peak week,point,NA,2020-03-02
+HHS Region 2,Peak week,point,NA,2020-EW15
 HHS Region 2,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 2,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 2,Peak week,bin,2020-EW12,0.0384615384615385
@@ -6969,7 +6969,7 @@ HHS Region 3,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 3,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 3,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 3,Below baseline for 3 weeks,bin,true,.5
-HHS Region 3,First week below baseline,point,NA,2020-03-02
+HHS Region 3,First week below baseline,point,NA,2020-EW15
 HHS Region 3,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 3,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 3,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -7248,7 +7248,7 @@ HHS Region 3,Peak height,bin,9.6,0.00398406374501992
 HHS Region 3,Peak height,bin,9.7,0.00398406374501992
 HHS Region 3,Peak height,bin,9.8,0.00398406374501992
 HHS Region 3,Peak height,bin,9.9,0.00398406374501992
-HHS Region 3,Peak week,point,NA,2020-03-02
+HHS Region 3,Peak week,point,NA,2020-EW15
 HHS Region 3,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 3,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 3,Peak week,bin,2020-EW12,0.0384615384615385
@@ -8788,7 +8788,7 @@ HHS Region 4,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 4,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 4,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 4,Below baseline for 3 weeks,bin,true,.5
-HHS Region 4,First week below baseline,point,NA,2020-03-02
+HHS Region 4,First week below baseline,point,NA,2020-EW15
 HHS Region 4,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 4,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 4,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -9067,7 +9067,7 @@ HHS Region 4,Peak height,bin,9.6,0.00398406374501992
 HHS Region 4,Peak height,bin,9.7,0.00398406374501992
 HHS Region 4,Peak height,bin,9.8,0.00398406374501992
 HHS Region 4,Peak height,bin,9.9,0.00398406374501992
-HHS Region 4,Peak week,point,NA,2020-03-02
+HHS Region 4,Peak week,point,NA,2020-EW15
 HHS Region 4,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 4,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 4,Peak week,bin,2020-EW12,0.0384615384615385
@@ -10607,7 +10607,7 @@ HHS Region 5,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 5,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 5,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 5,Below baseline for 3 weeks,bin,true,.5
-HHS Region 5,First week below baseline,point,NA,2020-03-02
+HHS Region 5,First week below baseline,point,NA,2020-EW15
 HHS Region 5,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 5,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 5,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -10886,7 +10886,7 @@ HHS Region 5,Peak height,bin,9.6,0.00398406374501992
 HHS Region 5,Peak height,bin,9.7,0.00398406374501992
 HHS Region 5,Peak height,bin,9.8,0.00398406374501992
 HHS Region 5,Peak height,bin,9.9,0.00398406374501992
-HHS Region 5,Peak week,point,NA,2020-03-02
+HHS Region 5,Peak week,point,NA,2020-EW15
 HHS Region 5,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 5,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 5,Peak week,bin,2020-EW12,0.0384615384615385
@@ -12426,7 +12426,7 @@ HHS Region 6,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 6,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 6,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 6,Below baseline for 3 weeks,bin,true,.5
-HHS Region 6,First week below baseline,point,NA,2020-03-02
+HHS Region 6,First week below baseline,point,NA,2020-EW15
 HHS Region 6,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 6,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 6,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -12705,7 +12705,7 @@ HHS Region 6,Peak height,bin,9.6,0.00398406374501992
 HHS Region 6,Peak height,bin,9.7,0.00398406374501992
 HHS Region 6,Peak height,bin,9.8,0.00398406374501992
 HHS Region 6,Peak height,bin,9.9,0.00398406374501992
-HHS Region 6,Peak week,point,NA,2020-03-02
+HHS Region 6,Peak week,point,NA,2020-EW15
 HHS Region 6,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 6,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 6,Peak week,bin,2020-EW12,0.0384615384615385
@@ -14245,7 +14245,7 @@ HHS Region 7,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 7,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 7,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 7,Below baseline for 3 weeks,bin,true,.5
-HHS Region 7,First week below baseline,point,NA,2020-03-02
+HHS Region 7,First week below baseline,point,NA,2020-EW15
 HHS Region 7,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 7,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 7,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -14524,7 +14524,7 @@ HHS Region 7,Peak height,bin,9.6,0.00398406374501992
 HHS Region 7,Peak height,bin,9.7,0.00398406374501992
 HHS Region 7,Peak height,bin,9.8,0.00398406374501992
 HHS Region 7,Peak height,bin,9.9,0.00398406374501992
-HHS Region 7,Peak week,point,NA,2020-03-02
+HHS Region 7,Peak week,point,NA,2020-EW15
 HHS Region 7,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 7,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 7,Peak week,bin,2020-EW12,0.0384615384615385
@@ -16064,7 +16064,7 @@ HHS Region 8,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 8,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 8,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 8,Below baseline for 3 weeks,bin,true,.5
-HHS Region 8,First week below baseline,point,NA,2020-03-02
+HHS Region 8,First week below baseline,point,NA,2020-EW15
 HHS Region 8,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 8,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 8,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -16343,7 +16343,7 @@ HHS Region 8,Peak height,bin,9.6,0.00398406374501992
 HHS Region 8,Peak height,bin,9.7,0.00398406374501992
 HHS Region 8,Peak height,bin,9.8,0.00398406374501992
 HHS Region 8,Peak height,bin,9.9,0.00398406374501992
-HHS Region 8,Peak week,point,NA,2020-03-02
+HHS Region 8,Peak week,point,NA,2020-EW15
 HHS Region 8,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 8,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 8,Peak week,bin,2020-EW12,0.0384615384615385
@@ -17883,7 +17883,7 @@ HHS Region 9,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 9,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 9,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 9,Below baseline for 3 weeks,bin,true,.5
-HHS Region 9,First week below baseline,point,NA,2020-03-02
+HHS Region 9,First week below baseline,point,NA,2020-EW15
 HHS Region 9,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 9,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 9,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -18162,7 +18162,7 @@ HHS Region 9,Peak height,bin,9.6,0.00398406374501992
 HHS Region 9,Peak height,bin,9.7,0.00398406374501992
 HHS Region 9,Peak height,bin,9.8,0.00398406374501992
 HHS Region 9,Peak height,bin,9.9,0.00398406374501992
-HHS Region 9,Peak week,point,NA,2020-03-02
+HHS Region 9,Peak week,point,NA,2020-EW15
 HHS Region 9,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 9,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 9,Peak week,bin,2020-EW12,0.0384615384615385
@@ -19702,7 +19702,7 @@ HHS Region 10,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 10,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 10,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 10,Below baseline for 3 weeks,bin,true,.5
-HHS Region 10,First week below baseline,point,NA,2020-03-02
+HHS Region 10,First week below baseline,point,NA,2020-EW15
 HHS Region 10,First week below baseline,bin,2020-EW10,0.0384615384615385
 HHS Region 10,First week below baseline,bin,2020-EW11,0.0384615384615385
 HHS Region 10,First week below baseline,bin,2020-EW12,0.0384615384615385
@@ -19981,7 +19981,7 @@ HHS Region 10,Peak height,bin,9.6,0.00398406374501992
 HHS Region 10,Peak height,bin,9.7,0.00398406374501992
 HHS Region 10,Peak height,bin,9.8,0.00398406374501992
 HHS Region 10,Peak height,bin,9.9,0.00398406374501992
-HHS Region 10,Peak week,point,NA,2020-03-02
+HHS Region 10,Peak week,point,NA,2020-EW15
 HHS Region 10,Peak week,bin,2020-EW10,0.0384615384615385
 HHS Region 10,Peak week,bin,2020-EW11,0.0384615384615385
 HHS Region 10,Peak week,bin,2020-EW12,0.0384615384615385

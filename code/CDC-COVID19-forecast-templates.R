@@ -24,7 +24,7 @@ ili_points_template <- expand.grid(location=locations, target=ili_targets, type=
 
 ## make date targets template
 date_bins_template <- expand.grid(location=locations, target=date_targets, type="bin", bin=date_bins, value = as.character(1/length(date_bins)), stringsAsFactors = FALSE)
-date_points_template <- expand.grid(location=locations, target=date_targets, type="point", value = "2020-03-02", stringsAsFactors = FALSE)
+date_points_template <- expand.grid(location=locations, target=date_targets, type="point", value = "2020-EW15", stringsAsFactors = FALSE)
 
 ## make binart target template
 binary_bins_template <- expand.grid(location=locations, target=binary_targets, type="bin", bin="true", value = ".5", stringsAsFactors = FALSE)
@@ -59,7 +59,7 @@ ili_points_template <- expand.grid(location=states, target=ili_targets, type="po
 # date_bins_template <- expand.grid(location=states, target=date_targets, type="bin", bin=date_bins, value = as.character(1/length(date_bins)), stringsAsFactors = FALSE)
 # date_points_template <- expand.grid(location=states, target=date_targets, type="point", value = "2020-03-02", stringsAsFactors = FALSE)
 date_bins_template <- expand.grid(location=states, target=date_targets[1], type="bin", bin=date_bins, value = as.character(1/length(date_bins)), stringsAsFactors = FALSE)
-date_points_template <- expand.grid(location=states, target=date_targets[1], type="point", value = "2020-03-02", stringsAsFactors = FALSE)
+date_points_template <- expand.grid(location=states, target=date_targets[1], type="point", value = "2020-EW15", stringsAsFactors = FALSE)
 
 ## make binart target template
 # binary_bins_template <- expand.grid(location=states, target=binary_targets, type="bin", bin="true", value = ".5", stringsAsFactors = FALSE)
