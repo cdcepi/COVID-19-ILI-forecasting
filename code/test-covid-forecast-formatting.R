@@ -2,7 +2,7 @@ library(cdcForecastUtils)
 library(dplyr)
 
 # For national/Regional-level forecasts
-weekly_forecast_filepath1 <- "./nation-region-forecast-data/UMassCoE-arimaT/metadata-UMassCoE-arimaT.txt"
+weekly_forecast_filepath1 <- "./templates-and-data/covid19-ili-forecast-national-regional-template.csv"
 verify_entry_file(weekly_forecast_filepath1)
 # For state-level forecasts
 # weekly_forecast_filepath2 <- "/directory/EW10-2020-state_forecast_file.csv"
