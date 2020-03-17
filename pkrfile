@@ -2,5 +2,5 @@
 # Install using `pkr in --file pkrfile --global`
 dplyr
 devtools
-r-spatial/sf
+sf
 reichlab/cdcForecastUtils

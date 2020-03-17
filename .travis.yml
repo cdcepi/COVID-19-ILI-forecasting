@@ -16,7 +16,9 @@ before_install:
   - sudo apt-get update -qq
 
   # Dependencies
-  - sudo apt-get install libv8-3.14-dev r-base r-base-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev fish -y
+  - sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+  - sudo apt-get update
+  - sudo apt-get install libv8-3.14-dev default-libmysqlclient-dev r-base r-base-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev fish -y
   - chmod +x travis-main.sh
   - sudo apt-get update
   
