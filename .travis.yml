@@ -18,6 +18,7 @@ before_install:
   # Dependencies
   - sudo apt-get install libv8-3.14-dev r-base r-base-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev fish -y
   - chmod +x travis-main.sh
+  - sudo apt-get update
   
 node_js:
   - 7
