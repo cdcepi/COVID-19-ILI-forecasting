@@ -1,7 +1,7 @@
 
 language: node_js
 sudo: required
-dist: trusty
+dist: bionic
 git:
   depth: 1
 
@@ -10,15 +10,14 @@ before_install:
   - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 51716619E084DAB9
 
   # Add repositories
-  - echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" | sudo tee -a /etc/apt/sources.list
-  - sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
-  - sudo add-apt-repository -y ppa:fish-shell/release-2
-  - sudo apt-get update -qq
+  #- echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" | sudo tee -a /etc/apt/sources.list
+  #- sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
+  #- sudo add-apt-repository -y ppa:fish-shell/release-2
+  #- sudo apt-get update -qq
 
   # Dependencies
-  - sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
-  - sudo apt-get update
-  - sudo apt-get install libv8-3.14-dev default-libmysqlclient-dev r-base r-base-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev fish -y
+  #- sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+  - sudo apt-get install libv8-3.14-dev r-base r-base-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev fish -y
   - chmod +x travis-main.sh
   - sudo apt-get update
   
