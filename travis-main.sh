@@ -30,4 +30,3 @@ git config user.email "katiehouse3@gmail.com"
 echo "Testing forecasts..."
 source ./travis/test.sh
 echo "Test Complete"
-ssh-agent -k
