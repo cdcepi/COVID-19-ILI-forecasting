@@ -1,24 +1,21 @@
 library(cdcForecastUtils)
 library(dplyr)
 
-# For national/Regional-level forecasts
-files <- list.files(path="./nation-region-forecast-data", pattern="*.csv", full.names=TRUE, recursive=TRUE)
+# Verify national/Regional-level forecasts
+natreg_files <- list.files(path="./nation-region-forecast-data", pattern="*.csv", full.names=TRUE, recursive=TRUE)
 
-for(i in files){
+for(i in natreg_files){
     text <- paste("Testing", i, "...")
     print(text)
     verify_entry_file(i)
 }
 
+# Verify state forecasts
+state_files <- list.files(path="./state-forecast-data", pattern="*.csv", full.names=TRUE, recursive=TRUE)
 
-# For state-level forecasts
-# weekly_forecast_filepath2 <- "/directory/EW10-2020-state_forecast_file.csv"
-# verify_entry_file(weekly_forecast_filepath2, challenge = "state_ili")
+for(i in state_files){
+    text <- paste("Testing", i, "...")
+    print(text)
+    verify_entry_file(i, challenge = "state_ili")
+}
 
-
-# For national/Regional-level forecasts
-# weekly_forecast_file1 <- read_entry( "./nation-region-forecast-data/UMassCoE-arimaT/metadata-UMassCoE-arimaT.txt")
-# verify_entry(weekly_forecast_file1)
-# For state-level forecasts
-# weekly_forecast_file2 <- read_entry("/directory/EW10-2020-state_forecast_file.csv")
-# verify_entry(weekly_forecast_file2)
