@@ -1512,33 +1512,33 @@ US National,6 wk ahead,bin,9.7,0.00398406374501992
 US National,6 wk ahead,bin,9.8,0.00398406374501992
 US National,6 wk ahead,bin,9.9,0.00398406374501992
 US National,Below baseline for 3 weeks,bin,true,.5
-US National,First week below baseline,point,NA,2020-EW15
-US National,First week below baseline,bin,2020-EW10,0.0384615384615385
-US National,First week below baseline,bin,2020-EW11,0.0384615384615385
-US National,First week below baseline,bin,2020-EW12,0.0384615384615385
-US National,First week below baseline,bin,2020-EW13,0.0384615384615385
-US National,First week below baseline,bin,2020-EW14,0.0384615384615385
-US National,First week below baseline,bin,2020-EW15,0.0384615384615385
-US National,First week below baseline,bin,2020-EW16,0.0384615384615385
-US National,First week below baseline,bin,2020-EW17,0.0384615384615385
-US National,First week below baseline,bin,2020-EW18,0.0384615384615385
-US National,First week below baseline,bin,2020-EW19,0.0384615384615385
-US National,First week below baseline,bin,2020-EW20,0.0384615384615385
-US National,First week below baseline,bin,2020-EW21,0.0384615384615385
-US National,First week below baseline,bin,2020-EW22,0.0384615384615385
-US National,First week below baseline,bin,2020-EW23,0.0384615384615385
-US National,First week below baseline,bin,2020-EW24,0.0384615384615385
-US National,First week below baseline,bin,2020-EW25,0.0384615384615385
-US National,First week below baseline,bin,2020-EW26,0.0384615384615385
-US National,First week below baseline,bin,2020-EW27,0.0384615384615385
-US National,First week below baseline,bin,2020-EW28,0.0384615384615385
-US National,First week below baseline,bin,2020-EW29,0.0384615384615385
-US National,First week below baseline,bin,2020-EW30,0.0384615384615385
-US National,First week below baseline,bin,2020-EW31,0.0384615384615385
-US National,First week below baseline,bin,2020-EW32,0.0384615384615385
-US National,First week below baseline,bin,2020-EW33,0.0384615384615385
-US National,First week below baseline,bin,2020-EW34,0.0384615384615385
-US National,First week below baseline,bin,2020-EW35,0.0384615384615385
+US National,First week below baseline,point,NA,2020-ew15
+US National,First week below baseline,bin,2020-ew10,0.0384615384615385
+US National,First week below baseline,bin,2020-ew11,0.0384615384615385
+US National,First week below baseline,bin,2020-ew12,0.0384615384615385
+US National,First week below baseline,bin,2020-ew13,0.0384615384615385
+US National,First week below baseline,bin,2020-ew14,0.0384615384615385
+US National,First week below baseline,bin,2020-ew15,0.0384615384615385
+US National,First week below baseline,bin,2020-ew16,0.0384615384615385
+US National,First week below baseline,bin,2020-ew17,0.0384615384615385
+US National,First week below baseline,bin,2020-ew18,0.0384615384615385
+US National,First week below baseline,bin,2020-ew19,0.0384615384615385
+US National,First week below baseline,bin,2020-ew20,0.0384615384615385
+US National,First week below baseline,bin,2020-ew21,0.0384615384615385
+US National,First week below baseline,bin,2020-ew22,0.0384615384615385
+US National,First week below baseline,bin,2020-ew23,0.0384615384615385
+US National,First week below baseline,bin,2020-ew24,0.0384615384615385
+US National,First week below baseline,bin,2020-ew25,0.0384615384615385
+US National,First week below baseline,bin,2020-ew26,0.0384615384615385
+US National,First week below baseline,bin,2020-ew27,0.0384615384615385
+US National,First week below baseline,bin,2020-ew28,0.0384615384615385
+US National,First week below baseline,bin,2020-ew29,0.0384615384615385
+US National,First week below baseline,bin,2020-ew30,0.0384615384615385
+US National,First week below baseline,bin,2020-ew31,0.0384615384615385
+US National,First week below baseline,bin,2020-ew32,0.0384615384615385
+US National,First week below baseline,bin,2020-ew33,0.0384615384615385
+US National,First week below baseline,bin,2020-ew34,0.0384615384615385
+US National,First week below baseline,bin,2020-ew35,0.0384615384615385
 US National,Peak height,point,NA,1.234
 US National,Peak height,bin,0.0,0.00398406374501992
 US National,Peak height,bin,0.1,0.00398406374501992
@@ -1791,33 +1791,33 @@ US National,Peak height,bin,9.6,0.00398406374501992
 US National,Peak height,bin,9.7,0.00398406374501992
 US National,Peak height,bin,9.8,0.00398406374501992
 US National,Peak height,bin,9.9,0.00398406374501992
-US National,Peak week,point,NA,2020-EW15
-US National,Peak week,bin,2020-EW10,0.0384615384615385
-US National,Peak week,bin,2020-EW11,0.0384615384615385
-US National,Peak week,bin,2020-EW12,0.0384615384615385
-US National,Peak week,bin,2020-EW13,0.0384615384615385
-US National,Peak week,bin,2020-EW14,0.0384615384615385
-US National,Peak week,bin,2020-EW15,0.0384615384615385
-US National,Peak week,bin,2020-EW16,0.0384615384615385
-US National,Peak week,bin,2020-EW17,0.0384615384615385
-US National,Peak week,bin,2020-EW18,0.0384615384615385
-US National,Peak week,bin,2020-EW19,0.0384615384615385
-US National,Peak week,bin,2020-EW20,0.0384615384615385
-US National,Peak week,bin,2020-EW21,0.0384615384615385
-US National,Peak week,bin,2020-EW22,0.0384615384615385
-US National,Peak week,bin,2020-EW23,0.0384615384615385
-US National,Peak week,bin,2020-EW24,0.0384615384615385
-US National,Peak week,bin,2020-EW25,0.0384615384615385
-US National,Peak week,bin,2020-EW26,0.0384615384615385
-US National,Peak week,bin,2020-EW27,0.0384615384615385
-US National,Peak week,bin,2020-EW28,0.0384615384615385
-US National,Peak week,bin,2020-EW29,0.0384615384615385
-US National,Peak week,bin,2020-EW30,0.0384615384615385
-US National,Peak week,bin,2020-EW31,0.0384615384615385
-US National,Peak week,bin,2020-EW32,0.0384615384615385
-US National,Peak week,bin,2020-EW33,0.0384615384615385
-US National,Peak week,bin,2020-EW34,0.0384615384615385
-US National,Peak week,bin,2020-EW35,0.0384615384615385
+US National,Peak week,point,NA,2020-ew15
+US National,Peak week,bin,2020-ew10,0.0384615384615385
+US National,Peak week,bin,2020-ew11,0.0384615384615385
+US National,Peak week,bin,2020-ew12,0.0384615384615385
+US National,Peak week,bin,2020-ew13,0.0384615384615385
+US National,Peak week,bin,2020-ew14,0.0384615384615385
+US National,Peak week,bin,2020-ew15,0.0384615384615385
+US National,Peak week,bin,2020-ew16,0.0384615384615385
+US National,Peak week,bin,2020-ew17,0.0384615384615385
+US National,Peak week,bin,2020-ew18,0.0384615384615385
+US National,Peak week,bin,2020-ew19,0.0384615384615385
+US National,Peak week,bin,2020-ew20,0.0384615384615385
+US National,Peak week,bin,2020-ew21,0.0384615384615385
+US National,Peak week,bin,2020-ew22,0.0384615384615385
+US National,Peak week,bin,2020-ew23,0.0384615384615385
+US National,Peak week,bin,2020-ew24,0.0384615384615385
+US National,Peak week,bin,2020-ew25,0.0384615384615385
+US National,Peak week,bin,2020-ew26,0.0384615384615385
+US National,Peak week,bin,2020-ew27,0.0384615384615385
+US National,Peak week,bin,2020-ew28,0.0384615384615385
+US National,Peak week,bin,2020-ew29,0.0384615384615385
+US National,Peak week,bin,2020-ew30,0.0384615384615385
+US National,Peak week,bin,2020-ew31,0.0384615384615385
+US National,Peak week,bin,2020-ew32,0.0384615384615385
+US National,Peak week,bin,2020-ew33,0.0384615384615385
+US National,Peak week,bin,2020-ew34,0.0384615384615385
+US National,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 1,1 wk ahead,point,NA,1.234
 HHS Region 1,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 1,1 wk ahead,bin,0.1,0.00398406374501992
@@ -3331,33 +3331,33 @@ HHS Region 1,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 1,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 1,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 1,Below baseline for 3 weeks,bin,true,.5
-HHS Region 1,First week below baseline,point,NA,2020-EW15
-HHS Region 1,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 1,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 1,First week below baseline,point,NA,2020-ew15
+HHS Region 1,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 1,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 1,Peak height,point,NA,1.234
 HHS Region 1,Peak height,bin,0.0,0.00398406374501992
 HHS Region 1,Peak height,bin,0.1,0.00398406374501992
@@ -3610,33 +3610,33 @@ HHS Region 1,Peak height,bin,9.6,0.00398406374501992
 HHS Region 1,Peak height,bin,9.7,0.00398406374501992
 HHS Region 1,Peak height,bin,9.8,0.00398406374501992
 HHS Region 1,Peak height,bin,9.9,0.00398406374501992
-HHS Region 1,Peak week,point,NA,2020-EW15
-HHS Region 1,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 1,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 1,Peak week,point,NA,2020-ew15
+HHS Region 1,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 1,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 2,1 wk ahead,point,NA,1.234
 HHS Region 2,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 2,1 wk ahead,bin,0.1,0.00398406374501992
@@ -5150,33 +5150,33 @@ HHS Region 2,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 2,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 2,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 2,Below baseline for 3 weeks,bin,true,.5
-HHS Region 2,First week below baseline,point,NA,2020-EW15
-HHS Region 2,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 2,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 2,First week below baseline,point,NA,2020-ew15
+HHS Region 2,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 2,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 2,Peak height,point,NA,1.234
 HHS Region 2,Peak height,bin,0.0,0.00398406374501992
 HHS Region 2,Peak height,bin,0.1,0.00398406374501992
@@ -5429,33 +5429,33 @@ HHS Region 2,Peak height,bin,9.6,0.00398406374501992
 HHS Region 2,Peak height,bin,9.7,0.00398406374501992
 HHS Region 2,Peak height,bin,9.8,0.00398406374501992
 HHS Region 2,Peak height,bin,9.9,0.00398406374501992
-HHS Region 2,Peak week,point,NA,2020-EW15
-HHS Region 2,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 2,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 2,Peak week,point,NA,2020-ew15
+HHS Region 2,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 2,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 3,1 wk ahead,point,NA,1.234
 HHS Region 3,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 3,1 wk ahead,bin,0.1,0.00398406374501992
@@ -6969,33 +6969,33 @@ HHS Region 3,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 3,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 3,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 3,Below baseline for 3 weeks,bin,true,.5
-HHS Region 3,First week below baseline,point,NA,2020-EW15
-HHS Region 3,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 3,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 3,First week below baseline,point,NA,2020-ew15
+HHS Region 3,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 3,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 3,Peak height,point,NA,1.234
 HHS Region 3,Peak height,bin,0.0,0.00398406374501992
 HHS Region 3,Peak height,bin,0.1,0.00398406374501992
@@ -7248,33 +7248,33 @@ HHS Region 3,Peak height,bin,9.6,0.00398406374501992
 HHS Region 3,Peak height,bin,9.7,0.00398406374501992
 HHS Region 3,Peak height,bin,9.8,0.00398406374501992
 HHS Region 3,Peak height,bin,9.9,0.00398406374501992
-HHS Region 3,Peak week,point,NA,2020-EW15
-HHS Region 3,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 3,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 3,Peak week,point,NA,2020-ew15
+HHS Region 3,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 3,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 4,1 wk ahead,point,NA,1.234
 HHS Region 4,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 4,1 wk ahead,bin,0.1,0.00398406374501992
@@ -8788,33 +8788,33 @@ HHS Region 4,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 4,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 4,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 4,Below baseline for 3 weeks,bin,true,.5
-HHS Region 4,First week below baseline,point,NA,2020-EW15
-HHS Region 4,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 4,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 4,First week below baseline,point,NA,2020-ew15
+HHS Region 4,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 4,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 4,Peak height,point,NA,1.234
 HHS Region 4,Peak height,bin,0.0,0.00398406374501992
 HHS Region 4,Peak height,bin,0.1,0.00398406374501992
@@ -9067,33 +9067,33 @@ HHS Region 4,Peak height,bin,9.6,0.00398406374501992
 HHS Region 4,Peak height,bin,9.7,0.00398406374501992
 HHS Region 4,Peak height,bin,9.8,0.00398406374501992
 HHS Region 4,Peak height,bin,9.9,0.00398406374501992
-HHS Region 4,Peak week,point,NA,2020-EW15
-HHS Region 4,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 4,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 4,Peak week,point,NA,2020-ew15
+HHS Region 4,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 4,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 5,1 wk ahead,point,NA,1.234
 HHS Region 5,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 5,1 wk ahead,bin,0.1,0.00398406374501992
@@ -10607,33 +10607,33 @@ HHS Region 5,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 5,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 5,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 5,Below baseline for 3 weeks,bin,true,.5
-HHS Region 5,First week below baseline,point,NA,2020-EW15
-HHS Region 5,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 5,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 5,First week below baseline,point,NA,2020-ew15
+HHS Region 5,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 5,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 5,Peak height,point,NA,1.234
 HHS Region 5,Peak height,bin,0.0,0.00398406374501992
 HHS Region 5,Peak height,bin,0.1,0.00398406374501992
@@ -10886,33 +10886,33 @@ HHS Region 5,Peak height,bin,9.6,0.00398406374501992
 HHS Region 5,Peak height,bin,9.7,0.00398406374501992
 HHS Region 5,Peak height,bin,9.8,0.00398406374501992
 HHS Region 5,Peak height,bin,9.9,0.00398406374501992
-HHS Region 5,Peak week,point,NA,2020-EW15
-HHS Region 5,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 5,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 5,Peak week,point,NA,2020-ew15
+HHS Region 5,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 5,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 6,1 wk ahead,point,NA,1.234
 HHS Region 6,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 6,1 wk ahead,bin,0.1,0.00398406374501992
@@ -12426,33 +12426,33 @@ HHS Region 6,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 6,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 6,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 6,Below baseline for 3 weeks,bin,true,.5
-HHS Region 6,First week below baseline,point,NA,2020-EW15
-HHS Region 6,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 6,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 6,First week below baseline,point,NA,2020-ew15
+HHS Region 6,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 6,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 6,Peak height,point,NA,1.234
 HHS Region 6,Peak height,bin,0.0,0.00398406374501992
 HHS Region 6,Peak height,bin,0.1,0.00398406374501992
@@ -12705,33 +12705,33 @@ HHS Region 6,Peak height,bin,9.6,0.00398406374501992
 HHS Region 6,Peak height,bin,9.7,0.00398406374501992
 HHS Region 6,Peak height,bin,9.8,0.00398406374501992
 HHS Region 6,Peak height,bin,9.9,0.00398406374501992
-HHS Region 6,Peak week,point,NA,2020-EW15
-HHS Region 6,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 6,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 6,Peak week,point,NA,2020-ew15
+HHS Region 6,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 6,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 7,1 wk ahead,point,NA,1.234
 HHS Region 7,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 7,1 wk ahead,bin,0.1,0.00398406374501992
@@ -14245,33 +14245,33 @@ HHS Region 7,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 7,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 7,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 7,Below baseline for 3 weeks,bin,true,.5
-HHS Region 7,First week below baseline,point,NA,2020-EW15
-HHS Region 7,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 7,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 7,First week below baseline,point,NA,2020-ew15
+HHS Region 7,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 7,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 7,Peak height,point,NA,1.234
 HHS Region 7,Peak height,bin,0.0,0.00398406374501992
 HHS Region 7,Peak height,bin,0.1,0.00398406374501992
@@ -14524,33 +14524,33 @@ HHS Region 7,Peak height,bin,9.6,0.00398406374501992
 HHS Region 7,Peak height,bin,9.7,0.00398406374501992
 HHS Region 7,Peak height,bin,9.8,0.00398406374501992
 HHS Region 7,Peak height,bin,9.9,0.00398406374501992
-HHS Region 7,Peak week,point,NA,2020-EW15
-HHS Region 7,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 7,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 7,Peak week,point,NA,2020-ew15
+HHS Region 7,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 7,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 8,1 wk ahead,point,NA,1.234
 HHS Region 8,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 8,1 wk ahead,bin,0.1,0.00398406374501992
@@ -16064,33 +16064,33 @@ HHS Region 8,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 8,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 8,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 8,Below baseline for 3 weeks,bin,true,.5
-HHS Region 8,First week below baseline,point,NA,2020-EW15
-HHS Region 8,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 8,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 8,First week below baseline,point,NA,2020-ew15
+HHS Region 8,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 8,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 8,Peak height,point,NA,1.234
 HHS Region 8,Peak height,bin,0.0,0.00398406374501992
 HHS Region 8,Peak height,bin,0.1,0.00398406374501992
@@ -16343,33 +16343,33 @@ HHS Region 8,Peak height,bin,9.6,0.00398406374501992
 HHS Region 8,Peak height,bin,9.7,0.00398406374501992
 HHS Region 8,Peak height,bin,9.8,0.00398406374501992
 HHS Region 8,Peak height,bin,9.9,0.00398406374501992
-HHS Region 8,Peak week,point,NA,2020-EW15
-HHS Region 8,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 8,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 8,Peak week,point,NA,2020-ew15
+HHS Region 8,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 8,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 9,1 wk ahead,point,NA,1.234
 HHS Region 9,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 9,1 wk ahead,bin,0.1,0.00398406374501992
@@ -17883,33 +17883,33 @@ HHS Region 9,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 9,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 9,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 9,Below baseline for 3 weeks,bin,true,.5
-HHS Region 9,First week below baseline,point,NA,2020-EW15
-HHS Region 9,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 9,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 9,First week below baseline,point,NA,2020-ew15
+HHS Region 9,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 9,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 9,Peak height,point,NA,1.234
 HHS Region 9,Peak height,bin,0.0,0.00398406374501992
 HHS Region 9,Peak height,bin,0.1,0.00398406374501992
@@ -18162,33 +18162,33 @@ HHS Region 9,Peak height,bin,9.6,0.00398406374501992
 HHS Region 9,Peak height,bin,9.7,0.00398406374501992
 HHS Region 9,Peak height,bin,9.8,0.00398406374501992
 HHS Region 9,Peak height,bin,9.9,0.00398406374501992
-HHS Region 9,Peak week,point,NA,2020-EW15
-HHS Region 9,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 9,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 9,Peak week,point,NA,2020-ew15
+HHS Region 9,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 9,Peak week,bin,2020-ew35,0.0384615384615385
 HHS Region 10,1 wk ahead,point,NA,1.234
 HHS Region 10,1 wk ahead,bin,0.0,0.00398406374501992
 HHS Region 10,1 wk ahead,bin,0.1,0.00398406374501992
@@ -19702,33 +19702,33 @@ HHS Region 10,6 wk ahead,bin,9.7,0.00398406374501992
 HHS Region 10,6 wk ahead,bin,9.8,0.00398406374501992
 HHS Region 10,6 wk ahead,bin,9.9,0.00398406374501992
 HHS Region 10,Below baseline for 3 weeks,bin,true,.5
-HHS Region 10,First week below baseline,point,NA,2020-EW15
-HHS Region 10,First week below baseline,bin,2020-EW10,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW11,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW12,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW13,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW14,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW15,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW16,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW17,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW18,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW19,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW20,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW21,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW22,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW23,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW24,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW25,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW26,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW27,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW28,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW29,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW30,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW31,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW32,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW33,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW34,0.0384615384615385
-HHS Region 10,First week below baseline,bin,2020-EW35,0.0384615384615385
+HHS Region 10,First week below baseline,point,NA,2020-ew15
+HHS Region 10,First week below baseline,bin,2020-ew10,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew11,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew12,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew13,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew14,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew15,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew16,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew17,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew18,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew19,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew20,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew21,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew22,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew23,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew24,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew25,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew26,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew27,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew28,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew29,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew30,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew31,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew32,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew33,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew34,0.0384615384615385
+HHS Region 10,First week below baseline,bin,2020-ew35,0.0384615384615385
 HHS Region 10,Peak height,point,NA,1.234
 HHS Region 10,Peak height,bin,0.0,0.00398406374501992
 HHS Region 10,Peak height,bin,0.1,0.00398406374501992
@@ -19981,30 +19981,30 @@ HHS Region 10,Peak height,bin,9.6,0.00398406374501992
 HHS Region 10,Peak height,bin,9.7,0.00398406374501992
 HHS Region 10,Peak height,bin,9.8,0.00398406374501992
 HHS Region 10,Peak height,bin,9.9,0.00398406374501992
-HHS Region 10,Peak week,point,NA,2020-EW15
-HHS Region 10,Peak week,bin,2020-EW10,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW11,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW12,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW13,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW14,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW15,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW16,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW17,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW18,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW19,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW20,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW21,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW22,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW23,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW24,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW25,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW26,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW27,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW28,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW29,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW30,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW31,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW32,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW33,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW34,0.0384615384615385
-HHS Region 10,Peak week,bin,2020-EW35,0.0384615384615385
+HHS Region 10,Peak week,point,NA,2020-ew15
+HHS Region 10,Peak week,bin,2020-ew10,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew11,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew12,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew13,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew14,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew15,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew16,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew17,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew18,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew19,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew20,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew21,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew22,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew23,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew24,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew25,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew26,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew27,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew28,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew29,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew30,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew31,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew32,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew33,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew34,0.0384615384615385
+HHS Region 10,Peak week,bin,2020-ew35,0.0384615384615385
