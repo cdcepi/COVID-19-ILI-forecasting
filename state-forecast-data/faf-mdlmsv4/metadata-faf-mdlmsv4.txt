@@ -1,0 +1,10 @@
+team_name: FastAndFurious
+team_abbr: faf
+model_name: mdlm stochastic volatility 3
+model_abbr: mdlmsv2
+model_contributors: Justin D. Silverman <jsilve24@gmail.com>, Alex Washburne <bigalculus@gmail.com>, Jamie T. Morton <jamietmorton@gmail.com>
+data_source1: ilinet
+data_source2: NULL
+interventions: this model does not factor in any current or future interventions.
+this_model_is_an_ensemble: TRUE
+methods: Bayesian Multivariate Dynamic Linear Model with covariance discounting (hand coded). This model is an ensemble of mdlmsv1-mdlmsv3. Innovation covariance terms were chosen by optimizing the models marginal likelihood. The data was transformed using the logit function prior to analysis with a pseudo-count of 0.5 added prior to transformation to avoid numerical problems. All states are fit jointly. 
