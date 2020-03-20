@@ -38,8 +38,8 @@ natreg_template <- bind_rows(
     binary_bins_template
 ) %>%
     mutate(location = factor(location, levels=locations),
-           type = factor(type, levels=c("point", "bin"))) %>%
-    arrange(location, target, type, bin)
+        type = factor(type, levels=c("point", "bin"))) %>%
+    arrange(location, target, type)
 
 ## sanity checking
 natreg_template %>% group_by(target, type) %>% summarize(n()) %>% print(n=Inf)
@@ -73,8 +73,8 @@ state_template <- bind_rows(
     # binary_bins_template
 ) %>%
     mutate(location = factor(location, levels=states),
-           type = factor(type, levels=c("point", "bin"))) %>%
-    arrange(location, target, type, bin)
+        type = factor(type, levels=c("point", "bin"))) %>%
+    arrange(location, target, type)
 
 ## sanity checking
 state_template %>% group_by(target, type) %>% summarize(n()) %>% print(n=Inf)
@@ -110,6 +110,18 @@ forecast_info <- tibble(
     ilinet_release_dates, ilinet_data_thru, ilinet_data_thru_ew,
     forecasts_due, forecasts_due_ew, forecasts_1_wk_ahead
 )
+
+## first due date moved up to Thursday, March 19
+forecast_info$forecasts_due[1] <- forecast_info$forecasts_due[1]+3 
+
+## ILINet release date for Friday July 3 to be Thursday, July 2
+july3_row <- which(forecast_info$ilinet_release_dates=="2020-07-03")
+forecast_info$ilinet_release_dates[july3_row] <- forecast_info$ilinet_release_dates[july3_row]-1 
+
+## forecast due date for memorial day to be pushed to Tuesday
+may26_row <- which(forecast_info$forecasts_due=="2020-05-25")
+forecast_info$forecasts_due[may26_row] <- forecast_info$forecasts_due[may26_row]+1 
+
 
 write_csv(forecast_info, path="templates-and-data/covid-19-forecast-dates.csv")
 
