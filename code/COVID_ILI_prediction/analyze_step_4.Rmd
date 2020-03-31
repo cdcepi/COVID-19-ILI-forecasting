@@ -15,8 +15,10 @@ require(magrittr)
 require(dplyr)
 require(ggplot2)
 require(mgcv)
-library(readr)
-library(MMWRweek)
+require(readr)
+require(MMWRweek)
+require(forecast)
+require(assertthat)
 
 ################################################################################
 # filenames

@@ -148,10 +148,23 @@ temp <- covid_daily$Province_State[ind]
 temp <- gsub("[ ][(]From Diamond Princess[)]", "", temp)
 # get the state abbreviation
 temp <- sapply(temp, function(z) strsplit(z, "[,][ ]")[[1]][2], USE.NAMES = FALSE)
+# create a New York City identifier
+ind_nyc <- which(grepl("New York City", covid_daily$Province_State) |
+                   grepl("New York County", covid_daily$Province_State) |
+                   grepl("Kings County", covid_daily$Province_State) |
+                   grepl("Queens County", covid_daily$Province_State) |
+                   grepl("Bronx County", covid_daily$Province_State) |
+                   grepl("Richmond County", covid_daily$Province_State) |
+                   grepl("New York City", covid_daily$Admin2) |
+                   (grepl("New York", covid_daily$Province_State) & 
+                      covid_daily$date < as.Date("2020-03-22") & 
+                      covid_daily$date > as.Date("2020-03-09")))
 # move the city, STATE to Admin2
 covid_daily$Admin2[ind] <- covid_daily$Province_State[ind]
 # replace Province_State with the state
 covid_daily$Province_State[ind] <- state_abb_2_name(trimws(temp))
+# make the Combined_Key into the NYC identifier
+covid_daily$Combined_Key[ind_nyc] <- "New York City, New York, US"
 
 save(covid_data, covid_deaths, covid_recovered, covid_daily,
      file = output_file)

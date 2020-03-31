@@ -1,0 +1,19 @@
+team_name: BertCarnell Predictions
+team_abbr: bertcarnell
+model_name: Auto-regressive Integrated Moving Average with Generalized Linear Model
+model_abbr: arima_glm
+model_contributors: Robert Carnell <bertcarnell@gmail.com>
+data_source1: ilinet
+data_source2: https://raw.github.com/CSSEGISandData/COVID-19
+interventions: this model does not factor in any current or future interventions.
+this_model_is_an_ensemble: FALSE
+methods: An ARIMA model is fit to the logit-transformed unweighted ILI data
+  from ILInet using the forecast R package for each state.  Only data from 
+  before any confirmed COVID-19 cases in the state are used in the ARIMA.
+  During the time confirmed COVID-19 cases are present in the state, a
+  conversion factor is estimated to relate the ARIMA model residual to the
+  confirmed COVID-19 cases.  Next, a concave-down quadratic is fit for the
+  confirmed COVID-19 cases on a log scale versus time.  Finally,
+  the predicted COVID-19 impact on ILI is added to the predicted seasonal-flu
+  ILI to create combined estimate.  The prediction distribution is estimated
+  from the ARIMA standard errors.

@@ -18,6 +18,7 @@ require(mgcv)
 require(readr)
 require(MMWRweek)
 require(assertthat)
+require(forecast)
 
 ################################################################################
 # filenames
@@ -48,21 +49,27 @@ temp_covid <- covid_daily %>%
   group_by(Province_State, mmwryear, mmwrweek) %>%
   summarise(confirmed = max(Confirmed, na.rm = TRUE))
 
+temp_covid_nyc <- covid_daily %>%
+  subset(Country_Region == "US" & 
+           Combined_Key == "New York City, New York, US") %>%
+  group_by(Province_State, mmwryear, mmwrweek) %>%
+  summarise(confirmed = max(Confirmed, na.rm = TRUE))
+
 stateflu3 <- merge(stateflu, temp_covid, by.x = c("region", "year", "week"),
                    by.y = c("Province_State", "mmwryear", "mmwrweek"),
                    all.x = TRUE, all.y = FALSE)
+temp_nyc <- merge(subset(stateflu, region == "New York City" & year == 2020), 
+      temp_covid_nyc, by.x = c("year", "week"),
+      by.y = c("mmwryear", "mmwrweek"),
+      all.x = FALSE, all.y = FALSE)
+
+stateflu3 <- within(stateflu3, confirmed[which(region == "New York City" & year == 2020 & week %in% temp_covid_nyc$mmwrweek)] <-
+                      temp_nyc$confirmed)
 ```
 
 ## ARIMA for each state
 
 ```{r arima, echo=FALSE}
-
-for (i in seq_along(hhs_regions_map$state))
-{
-  model_state <- hhs_regions_map$state[i]
-  model_data <- subset(stateflu3, stateflu3$region == model_state)
-  state_arima_build(model_state, model_data)
-}
 
 get_se_from_arima <- function(obj)
 {
@@ -107,17 +114,24 @@ create_result_from_arima_fcst <- function(obj)
 
 state_arima_build <- function(model_state, model_data)
 {
-  # model_state <- hhs_regions_map$state[1]
+  # model_state <- hhs_regions_map$state[51]
   # model_data <- subset(stateflu3, stateflu3$region == model_state)
   
   # find the first mmwrweek where confirmed is > 0
   all_confirmed_ind <- which(model_data$confirmed > 0 & model_data$year == 2020)
-  split_ind <- min(which(model_data$confirmed > 0 & model_data$year == 2020))
-  assertthat::assert_that(length(split_ind) == 1, 
-                          msg = paste0("Error in state splitting", model_state))
-
-  model_data_pre <- model_data[1:(split_ind - 1),]
-  model_data_post <- model_data[split_ind:nrow(model_data),]
+  if (length(all_confirmed_ind) == 0)
+  {
+    split_ind <- nrow(model_data)
+    model_data_pre <- model_data[1:(split_ind - 1),]
+    model_data_post <- model_data[nrow(model_data),]
+  } else {
+    split_ind <- min(which(model_data$confirmed > 0 & model_data$year == 2020))
+    assertthat::assert_that(length(split_ind) == 1, 
+                            msg = paste0("Error in state splitting", model_state))
+  
+    model_data_pre <- model_data[1:(split_ind - 1),]
+    model_data_post <- model_data[split_ind:nrow(model_data),]
+  }
   model_data_pre <- within(model_data_pre, 
                            patient_per_provider <- total_patients / num_of_providers)
   
@@ -158,87 +172,116 @@ state_arima_build <- function(model_state, model_data)
 
   # find the mean inflation over the observed days after 1/22
   mean_inflation <- mean(model_data_post$inflation)
+  
+  return(list(mean_inflation = mean_inflation,
+              model_data_post = model_data_post,
+              model_data_pre = model_data_pre,
+              arima = arima2,
+              arima_fcst = arima2_fcst,
+              arima_fcst_result = arima2_fcst_result))
 }
 
+arima_result_list <- vector("list", length(hhs_regions_map$state))
+for (i in seq_along(hhs_regions_map$state))
+{
+  print(paste0(i, ": ", as.character(hhs_regions_map$state[i])))
+  if (as.character(hhs_regions_map$state[i]) %in% 
+      c("Commonwealth of the Northern Mariana Islands")) 
+    next
+  model_state <- hhs_regions_map$state[i]
+  model_data <- subset(stateflu3, stateflu3$region == model_state)
+  arima_result_list[[i]] <- state_arima_build(model_state, model_data)
+}
 
 
 ```
 
-#### Predict
+#### COVID Daily Prediction for Each State
 
 ```{r predict, echo=FALSE}
-
-# predict following weeks confirmed
-covid_daily_state <- covid_daily %>%
-  subset(Province_State == as.character(model_state),
-         select = c("Confirmed", "mmwrweek", "date")) %>%
-  group_by(mmwrweek, date) %>%
-  summarise(Confirmed = sum(Confirmed))
-covid_daily_state$ndate <- as.numeric(covid_daily_state$date)
-
-# fit a concave down quadratic to the data to find the peak
-model_state <- hhs_regions_map$state[1]
-
-covid_daily_state <- covid_daily %>%
-  subset(Province_State == as.character(model_state) &
-           Confirmed > 0,
-         select = c("Confirmed", "mmwrweek", "date")) %>%
-  group_by(mmwrweek, date) %>%
-  summarise(Confirmed = sum(Confirmed))
-covid_daily_state$ndate <- as.numeric(covid_daily_state$date)
-
-covid_daily_state_pred_data <- data.frame(date = as.Date(today_date) + 1:(5*7))
-covid_daily_state_pred_data$ndate <- as.numeric(covid_daily_state_pred_data$date)
-covid_daily_state_pred_data$mmwrweek <-
-  MMWRweek::MMWRweek(covid_daily_state_pred_data$date)$MMWRweek
-
-lm1 <- lm(log(Confirmed) ~ ndate + I(ndate^2), data = covid_daily_state,
-          weights = 1 / as.numeric((as.Date(today_date) - covid_daily_state$date + 1)))
-covid_pred_params <- coef(lm1)
-covid_daily_state$pred <- exp(predict(lm1))
-covid_daily_state_pred_data$pred <- exp(predict(lm1, newdata = covid_daily_state_pred_data))
-
-if (is.na(coef(lm1)[3]) || coef(lm1)[3] >= 0)
+covid_prediction_builder <- function(model_state, mean_inflation)
 {
-  M <- list(
-    X = matrix(c(rep(1, nrow(covid_daily_state)),
-                 covid_daily_state$ndate,
-                 covid_daily_state$ndate^2),
-               nrow = nrow(covid_daily_state), ncol = 3), 
-    p = c(1, 2, -1),
-    off = array(0, 0),
-    S = list(),
-    Ain = matrix(c(0, 0, -1), nrow = 1, ncol = 3),
-    bin = 0.001,
-    C = matrix(0, 0, 0),
-    sp = array(0, 0),
-    y = log(covid_daily_state$Confirmed),
-    w = 1 / as.numeric((as.Date(today_date) - covid_daily_state$date + 1))
-  )
-  covid_pred_params <- pcls(M)
-  covid_daily_state$pred <- exp(as.numeric(M$X %*% covid_pred_params))
-  Xnew <- matrix(c(rep(1, nrow(covid_daily_state_pred_data)),
-                 covid_daily_state_pred_data$ndate,
-                 covid_daily_state_pred_data$ndate^2),
-               nrow = nrow(covid_daily_state_pred_data), ncol = 3)
-  covid_daily_state_pred_data$pred <- exp(as.numeric(Xnew %*% covid_pred_params))
-  # g <- ggplot(covid_daily_state, aes(x = date, y = Confirmed)) +
-  #   geom_point() +
-  #   geom_line(aes(x = date, y = lmpred), data = covid_daily_state, col = "blue") +
-  #   geom_line(aes(x = date, y = pclspred), data = covid_daily_state, col = "red")
-  # plot(g)
+  model_state_c <- as.character(model_state)
+  if (model_state_c == "New York City")
+  {
+    covid_daily_state <- covid_daily %>%
+      subset(Combined_Key == "New York City, New York, US" &
+               Confirmed > 0,
+             select = c("Confirmed", "mmwrweek", "date"))
+  } else
+  {
+    covid_daily_state <- covid_daily %>%
+      subset(Province_State == as.character(model_state) &
+               Confirmed > 0,
+             select = c("Confirmed", "mmwrweek", "date"))
+  }
+  coiv_daily_state <- covid_daily_state %>%
+      group_by(mmwrweek, date) %>%
+      summarise(Confirmed = sum(Confirmed))
+  covid_daily_state$ndate <- as.numeric(covid_daily_state$date)
+  
+  covid_daily_state_pred_data <- data.frame(date = as.Date(today_date) + 1:((WEEKS_AHEAD - 1) * 7))
+  covid_daily_state_pred_data$ndate <- as.numeric(covid_daily_state_pred_data$date)
+  covid_daily_state_pred_data$mmwrweek <-
+    MMWRweek::MMWRweek(covid_daily_state_pred_data$date)$MMWRweek
+
+  lm1 <- lm(log(Confirmed) ~ ndate + I(ndate^2), data = covid_daily_state,
+            weights = 1 / as.numeric((as.Date(today_date) - covid_daily_state$date + 1)))
+  covid_pred_params <- coef(lm1)
+  covid_daily_state$pred <- exp(predict(lm1))
+  covid_daily_state_pred_data$pred <- exp(predict(lm1, newdata = covid_daily_state_pred_data))
+
+  if (is.na(coef(lm1)[3]) || coef(lm1)[3] >= 0)
+  {
+    M <- list(
+      X = matrix(c(rep(1, nrow(covid_daily_state)),
+                   covid_daily_state$ndate,
+                   covid_daily_state$ndate^2),
+                 nrow = nrow(covid_daily_state), ncol = 3), 
+      p = c(1, 2, -1),
+      off = array(0, 0),
+      S = list(),
+      Ain = matrix(c(0, 0, -1), nrow = 1, ncol = 3),
+      bin = 0.001,
+      C = matrix(0, 0, 0),
+      sp = array(0, 0),
+      y = log(covid_daily_state$Confirmed),
+      w = 1 / as.numeric((as.Date(today_date) - covid_daily_state$date + 1))
+    )
+    covid_pred_params <- pcls(M)
+    covid_daily_state$pred <- exp(as.numeric(M$X %*% covid_pred_params))
+    Xnew <- matrix(c(rep(1, nrow(covid_daily_state_pred_data)),
+                   covid_daily_state_pred_data$ndate,
+                   covid_daily_state_pred_data$ndate^2),
+                 nrow = nrow(covid_daily_state_pred_data), ncol = 3)
+    covid_daily_state_pred_data$pred <- exp(as.numeric(Xnew %*% covid_pred_params))
+  }
+  covid_daily_state_post <- covid_daily_state %>%
+    group_by(mmwrweek) %>%
+    summarise(pred = max(pred),
+              actual = max(Confirmed),
+              pred_ili = max(pred) * mean_inflation) # percent scale
+  
+  covid_daily_state_pred <- covid_daily_state_pred_data %>%
+    group_by(mmwrweek) %>%
+    summarise(pred = max(pred),
+              pred_ili = max(pred) * mean_inflation) # percent scale
+  
+  return(list(covid_daily_state_post = covid_daily_state_post,
+              covid_daily_state_pred = covid_daily_state_pred))
 }
 
-covid_daily_state_post <- covid_daily_state %>%
-  group_by(mmwrweek) %>%
-  summarise(pred = max(pred),
-            actual = max(Confirmed),
-            pred_ili = max(pred) * mean_inflation) # percent scale
+covid_result_list <- vector("list", length(hhs_regions_map$state))
+for (i in seq_along(hhs_regions_map$state))
+{
+  print(paste0(i, ": ", as.character(hhs_regions_map$state[i])))
+  if (as.character(hhs_regions_map$state[i]) %in% 
+      c("Commonwealth of the Northern Mariana Islands")) 
+    next
+  model_state <- hhs_regions_map$state[i]
+  covid_result_list[[i]] <- covid_prediction_builder(model_state, arima_result_list[[i]]$mean_inflation)
+}
 
-covid_daily_state_pred <- covid_daily_state_pred_data %>%
-  group_by(mmwrweek) %>%
-  summarise(pred = max(pred),
-            pred_ili = max(pred) * mean_inflation) # percent scale
 ```
 
 #### Add COVID prediction to ILI prediction
@@ -246,16 +289,17 @@ covid_daily_state_pred <- covid_daily_state_pred_data %>%
 ```{r res, echo=FALSE}
 create_result_from_arima_fcst_plus <- function(obj, add_ili, mmwrweeks)
 {
-  #obj <- arima2_fcst
-  #add_ili <- c(covid_daily_state_post$pred_ili, covid_daily_state_pred$pred_ili)
-  #mmwrweeks <- c(covid_daily_state_post$mmwrweek, covid_daily_state_pred$mmwrweek)
+  #obj <- arima_result_list[[3]]$arima_fcst
+  #add_ili <- c(covid_result_list[[3]]$covid_daily_state_post$pred_ili, covid_result_list[[3]]$covid_daily_state_pred$pred_ili)
+  #mmwrweeks <- c(covid_result_list[[3]]$covid_daily_state_post$mmwrweek, covid_result_list[[3]]$covid_daily_state_pred$mmwrweek)
   assertthat::assert_that("forecast" %in% class(obj))
   
   # point estimate on the logit scale
   point_est_logit_scale <- as.numeric(obj$mean)
   # point estimate on the percent scale
   point_est <- plogis(point_est_logit_scale) * 100
-  point_est_new <- point_est + add_ili
+  # this can go over 100%, so take the max
+  point_est_new <- pmin(point_est + add_ili, 99.9)
   point_est_logit_scale_new <- qlogis(point_est_new / 100)
   # standard errors on the logit scale
   se_est_logit_scale <- get_se_from_arima(obj)
@@ -281,10 +325,23 @@ create_result_from_arima_fcst_plus <- function(obj, add_ili, mmwrweeks)
               mmwrweeks = mmwrweeks))
 }
 
-arima2_fcst_result_plus <- create_result_from_arima_fcst_plus(
-  arima2_fcst, 
-  c(covid_daily_state_post$pred_ili, covid_daily_state_pred$pred_ili), 
-  c(covid_daily_state_post$mmwrweek, covid_daily_state_pred$mmwrweek))
+arima_plus_result_list <- vector("list", length(hhs_regions_map$state))
+for (i in seq_along(hhs_regions_map$state))
+{
+  print(paste0(i, ": ", as.character(hhs_regions_map$state[i])))
+  if (as.character(hhs_regions_map$state[i]) %in% 
+      c("Commonwealth of the Northern Mariana Islands")) 
+    next
+  crl <- covid_result_list[[i]]
+  arl <- arima_result_list[[i]]
+  arima_plus_result_list[[i]] <- create_result_from_arima_fcst_plus(
+    arl$arima_fcst,
+    c(crl$covid_daily_state_post$pred_ili, 
+      crl$covid_daily_state_pred$pred_ili),
+    c(crl$covid_daily_state_post$mmwrweek, 
+      crl$covid_daily_state_pred$mmwrweek))
+}
+
 ```
 
 #### Write Out
@@ -312,16 +369,6 @@ ili_points_template <- expand.grid(
   location = states, target = ili_targets, type = "point", 
   value = as.character(NA), stringsAsFactors = FALSE)
 
-ind <- which(ili_points_template$location == as.character(model_state))
-len <- length(arima2_fcst_result_plus$point)
-max_week_ind <- which.max(arima2_fcst_result_plus$point)
-ili_points_template$value[ind] <- c(arima2_fcst_result_plus$point[(len - 6 + 1):len],
-                                    arima2_fcst_result_plus$point[max_week_ind])
-
-ind <- which(ili_bin_template$location == as.character(model_state))
-ili_bin_template$value[ind] <- c(arima2_fcst_result_plus$p_bin[,(len - 6 + 1):len],
-                                 arima2_fcst_result_plus$p_bin[, max_week_ind])
-
 ## make date targets template
 date_bins_template <- expand.grid(
   location = states, target = date_targets[1], type = "bin", 
@@ -330,15 +377,37 @@ date_points_template <- expand.grid(
   location = states, target = date_targets[1], type = "point", 
   value = as.character(NA), stringsAsFactors = FALSE)
 
-ind <- which(date_points_template$location == as.character(model_state))
-date_points_template$value[ind] <- paste0(
-  "2020-ew", arima2_fcst_result_plus$mmwrweeks[max_week_ind])
+for (i in seq_along(hhs_regions_map$state))
+{
+  model_state <- hhs_regions_map$state[i]
+  model_state_c <- as.character(model_state)
+  print(paste0(i, ": ", model_state_c))
+  
+  if (model_state_c == "Commonwealth of the Northern Mariana Islands")
+    next
+  aprl <- arima_plus_result_list[[i]]
+  len <- length(aprl$point)
+  week1_week6 <- (len - WEEKS_AHEAD + 1):len
+  max_week_ind <- which.max(aprl$point[week1_week6])
+  ind <- which(ili_points_template$location == model_state_c)
+  ili_points_template$value[ind] <- c(aprl$point[week1_week6],
+                                      aprl$point[week1_week6][max_week_ind])
 
-ind <- which(date_bins_template$location == as.character(model_state))
-date_bins_template$value[ind] <- 0
-ind <- which(date_bins_template$location == as.character(model_state) &
-               date_bins_template$bin == paste0( "2020-ew", arima2_fcst_result_plus$mmwrweeks[max_week_ind]))
-date_bins_template$value[ind] <- 1
+  ind <- which(ili_bin_template$location == model_state_c)
+  bin_results <- cbind(aprl$p_bin[, week1_week6],
+                                   aprl$p_bin[, week1_week6[max_week_ind]])
+  ili_bin_template$value[ind] <- c(t(bin_results))
+
+  ind <- which(date_points_template$location == model_state_c)
+  max_week_label <- paste0("2020-ew", aprl$mmwrweeks[week1_week6[max_week_ind]])
+  date_points_template$value[ind] <- max_week_label
+
+  ind <- which(date_bins_template$location == model_state_c)
+  date_bins_template$value[ind] <- 0.75 / (length(ind) - 1)
+  ind <- which(date_bins_template$location == model_state_c &
+                 date_bins_template$bin == max_week_label)
+  date_bins_template$value[ind] <- 0.25
+}
 
 ## bind all together
 state_template <- bind_rows(
@@ -353,13 +422,23 @@ state_template <- bind_rows(
     arrange(location, target, type)
 
 ## sanity checking
-# state_template %>% 
-#   group_by(target, type) %>% 
-#   summarize(n()) %>% 
-#   print(n = Inf)
-# state_template %>% 
-#   filter(type == "bin") %>% 
-#   group_by(location, target) %>% 
-#   summarize(sum(as.numeric(value))) %>% 
-#   print(n = Inf)
+temp <- state_template %>%
+  filter(type == "point") %>%
+  group_by(target) %>%
+  summarize(test = n())
+assertthat::assert_that(all(temp$test == 53))
+
+temp <- state_template %>%
+  filter(type == "bin") %>%
+  group_by(target) %>%
+  summarize(test = n())
+assertthat::assert_that(all(temp$test %in% c(53*251, 53*26)))
+
+temp <- state_template %>%
+  filter(type == "bin") %>%
+  group_by(location, target) %>%
+  summarize(test = sum(as.numeric(value)))
+assertthat::assert_that(all(abs(temp$test - 1) < 1E-6))
+
+write_csv(state_template, path = paste0("2020-ew", current_ili_week, "-bertcarnell-arima_glm.csv"))
 ```

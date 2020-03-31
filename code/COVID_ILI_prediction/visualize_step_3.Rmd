@@ -18,7 +18,7 @@ require(dplyr)
 ################################################################################
 # filenames
 
-today_date <- "2020-03-29"
+today_date <- "2020-03-28"
 
 ili_input_file <- paste0("ILI_data_", today_date, ".RData")
 covid_input_file <- paste0("COVID19_data_", today_date, ".RData")
