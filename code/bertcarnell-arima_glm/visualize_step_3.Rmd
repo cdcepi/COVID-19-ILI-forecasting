@@ -1,0 +1,112 @@
+---
+title: "ILI Prediction - Visualization"
+author: "Rob Carnell"
+date: "March 27, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+################################################################################
+# Packages
+
+require(ggplot2)
+require(magrittr)
+require(dplyr)
+
+################################################################################
+# filenames
+
+today_date <- "2020-03-28"
+
+ili_input_file <- paste0("ILI_data_", today_date, ".RData")
+covid_input_file <- paste0("COVID19_data_", today_date, ".RData")
+
+load(ili_input_file)
+load(covid_input_file)
+
+usflu$fyear <- factor(usflu$year)
+usflu$ili_per_provider <- usflu$ilitotal / usflu$num_of_providers
+
+regionflu$fyear <- factor(regionflu$year)
+regionflu$ili_per_provider <- regionflu$ilitotal / regionflu$num_of_providers
+```
+
+## National
+
+```{r national, echo=FALSE}
+ggplot(usflu, aes(x = week_start, y = total_patients)) + 
+  geom_line()
+ggplot(usflu, aes(x = week_start, y = num_of_providers)) + 
+  geom_line()
+ggplot(usflu, aes(x = week_start, y = ilitotal)) + 
+  geom_line()
+ggplot(usflu, aes(x = week_start, y = ili_per_provider)) + 
+  geom_line()
+ggplot(usflu, aes(x = week, y = weighted_ili, col = fyear, group = fyear)) + 
+  geom_line()
+ggplot(subset(usflu, year > 2015), 
+       aes(x = week, y = weighted_ili, col = fyear, group = fyear)) + 
+  geom_line()
+```
+
+## Regional
+
+```{r regional, echo=FALSE}
+ggplot(regionflu, aes(x = week_start, y = weighted_ili)) +
+  geom_line() +
+  facet_grid(region ~ .) +
+  theme(strip.text.y = element_text(angle = 0))
+
+ggplot(subset(regionflu, year > 2015), aes(x = week_start, y = weighted_ili)) +
+  geom_line() +
+  facet_grid(region ~ .) +
+  theme(strip.text.y = element_text(angle = 0))
+```
+
+## US COVID
+
+```{r state_covid, echo=FALSE}
+plot_data <- covid_data %>% 
+  subset(Country.Region == "US") 
+
+plot_data2 <- covid_deaths %>% 
+  subset(Country.Region == "US") 
+
+plot_data3 <- covid_recovered %>% 
+  subset(Country.Region == "US") 
+
+plot_data$recovered <- plot_data3$recovered
+plot_data$deaths <- plot_data2$deaths
+plot_data$active <- plot_data$confirmed - plot_data$recovered - plot_data$deaths
+plot_data2 <- reshape2::melt(plot_data, id.vars = "date",
+                             measure.vars = c("confirmed", "recovered", "deaths", "active"),
+                             variable.name = "type",
+                             value.name = "count")
+
+ggplot(plot_data2, aes(x = date, y = count, col = type, group = type)) + 
+  geom_line() +
+  scale_y_continuous(label = scales::comma_format(accuracy = 1))
+
+ggplot(plot_data2, aes(x = date, y = count, col = type, group = type)) + 
+  geom_line() +
+  scale_y_log10(label = scales::comma_format(accuracy = 1))
+```
+
+## State COVID
+
+```{r state, echo=FALSE}
+plot_data <- covid_daily %>% 
+  subset(Country_Region == "US" & Province_State %in% hhs_regions_map$state) %>%
+  dplyr::group_by(date, Province_State) %>%
+  dplyr::summarize(Confirmed = sum(Confirmed))
+
+plot_data$region_num <- hhs_regions_map$region_num[
+  match(plot_data$Province_State, hhs_regions_map$state)]
+
+ggplot(plot_data, aes(x = date, y = Confirmed, group = Province_State)) +
+  geom_line() +
+  facet_grid(region_num~.) +
+  scale_y_log10(label = scales::comma_format(accuracy = 1))
+```
