@@ -20,7 +20,7 @@ hosp_bins <- as.character(c(
     seq(600, 10000, by=100),
     seq(11000, 40000, by=1000)
     ))
-date_bins_df <- MMWRweek(seq.Date(as.Date("2020-03-01"), as.Date("2020-12-31"), by="1 week"))
+date_bins_df <- MMWRweek(seq.Date(as.Date("2020-03-01"), as.Date("2020-08-29"), by="1 week"))
 date_bins <- paste0(date_bins_df$MMWRyear, "-ew", date_bins_df$MMWRweek)
 
 ### example locations
