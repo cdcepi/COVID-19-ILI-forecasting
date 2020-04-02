@@ -13,12 +13,12 @@ tigris::fips_codes
 write_csv(fips_codes, "templates-and-data/fips_codes.csv")
 
 ## shared parameters/data across state/national templates
-hosp_targets <- c(paste(1:6, "wk ahead"), "Peak height")
+hosp_targets <- c(paste(1:25, "wk ahead"), "Peak height")
 date_targets <- c("Peak week")
 hosp_bins <- as.character(c(
     seq(0, 500, by=50),
     seq(600, 10000, by=100),
-    seq(11000, 40000, by=1000)
+    seq(11000, 100000, by=1000)
     ))
 date_bins_df <- MMWRweek(seq.Date(as.Date("2020-03-01"), as.Date("2020-08-29"), by="1 week"))
 date_bins <- paste0(date_bins_df$MMWRyear, "-ew", date_bins_df$MMWRweek)
